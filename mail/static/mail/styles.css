@@ -1,0 +1,48 @@
+textarea {
+    min-height: 400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+
+body {
+    background-color: rgb(232, 246, 248);
+}
+
+.email {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid silver;
+    background-color: #fff;
+    padding: 10px;
+}
+.email > * {
+    flex: 1 2 300px;
+}
+
+
+.is_read {
+    background-color: rgb(240, 240, 240);
+    
+}
+.btn-sm{
+    box-shadow: 0 -3px 5px -3px #3498db, 0 3px 5px -3px #3498db;
+}
+
+.btn-email {
+    margin: 10px auto;
+    padding: 5px 10px;
+    /* width: 50px; */
+    border: none;
+    border-radius: 5px;
+    box-sizing: content-box;
+    background-color: #34495ec4;
+    color: white;
+    box-shadow: 0 -5px 10px -3px #3498db, 0 5px 10px -3px #3498db;
+    text-align: center;
+}
