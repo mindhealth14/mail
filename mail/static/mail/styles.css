@@ -1,0 +1,18 @@
+
+
+textarea {
+    min-height: 400px;
+}
+
+
+.is_read {
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-size:large;
+    font-weight: bolder;
+    
+}
+
+.pointer{
+    cursor: pointer;
+}
